@@ -1,6 +1,35 @@
 # js, jsx, tsx를 혼용하여 사용하는 프로젝트를 위한 보일레이트
 > vite, react, typescript, primereact 사용
 
+```bash
+|-- .editorconfig
+|-- .gitignore
+|-- .prettierignore
+|-- .prettierrc.json
+|-- LICENSE
+|-- README.md
+|-- eslint.config.js
+|-- index.html
+|-- package-lock.json
+|-- package.json
+|-- public
+|   `-- temp
+|-- src
+|   |-- App.tsx
+|   |-- assets
+|   |-- index.css
+|   |-- main.tsx
+|   |-- sample
+|   |   `-- Upload.tsx
+|   `-- vite-env.d.ts
+|-- tsconfig.app.json
+|-- tsconfig.json
+|-- tsconfig.node.json
+`-- vite.config.ts
+```
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
